@@ -1,0 +1,31 @@
+.inputs {
+ padding: 10px 20px;
+ margin: 10px 10px;
+ font-size: 20px;
+ font-family: monospace;
+ border-radius: 5px;
+ border-color: #262626;
+ color: deeppink;
+ border: 0px solid gray;
+ box-shadow: inset 0 1px 4px #00000029;
+}
+
+input:focus-visible {
+ outline: auto;
+}
+
+
+#inputField {
+ justify-content: center;
+ border-bottom: 0px;
+ display: flex;
+ flex-direction: column;
+ background-color: #fff;
+ margin: 10px auto;
+ box-shadow: 0 1px 4px #00000029;
+ border-radius: 4px;
+ padding: 10px;
+ text-align: center;
+ flex-wrap: wrap;
+ align-items: center;
+}
